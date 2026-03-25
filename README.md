@@ -2,6 +2,8 @@
 
 Add colored tags to Gravity Forms and filter your form list by tag — right inside the WordPress admin.
 
+![Plugin Screenshot](https://github.com/guilamu/gf-tag-navigator/blob/main/screenshot.png)
+
 ## Tag Management
 - Create, edit, and delete reusable tags from a central catalog
 - Choose from 12 built-in color presets (Red, Orange, Yellow, Green, Teal, Blue, Indigo, Purple, Pink, Brown, Grey, Dark)
