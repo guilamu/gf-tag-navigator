@@ -1,0 +1,278 @@
+/* ==========================================================================
+   Gravity Forms Tag Navigator — Admin Styles
+   ========================================================================== */
+
+/* ---------- Pill base ---------- */
+.gftn-pill {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 10px;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.5;
+	white-space: nowrap;
+	vertical-align: middle;
+	text-decoration: none;
+	border: none;
+	margin: 1px 3px 1px 0;
+	cursor: default;
+	transition: filter .15s, opacity .15s;
+}
+a.gftn-pill {
+	cursor: pointer;
+}
+a.gftn-pill:hover {
+	filter: brightness(0.9);
+	text-decoration: none;
+}
+
+/* Active state in filter bar */
+.gftn-pill--active {
+	outline: 2px solid currentColor;
+	outline-offset: 1px;
+}
+
+/* "All" pill — neutral grey */
+.gftn-pill--all {
+	background: #868e96;
+	color: #fff;
+}
+
+/* Checkbox pill variant (form settings + popover) */
+.gftn-pill--checkbox {
+	cursor: pointer;
+	user-select: none;
+}
+.gftn-pill--checkbox input[type="checkbox"] {
+	margin: 0 4px 0 0;
+	vertical-align: middle;
+}
+
+/* ---------- Filter bar ---------- */
+.gftn-filter-bar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 4px;
+	clear: both;
+	width: 100%;
+	flex-basis: 100%;
+}
+.gftn-filter-label {
+	font-weight: 600;
+	margin-right: 6px;
+	font-size: 13px;
+	color: #1d2327;
+}
+
+/* ---------- Inline edit button (GF circle-plus icon) ---------- */
+.gftn-edit-tags {
+	background: none;
+	border: none;
+	padding: 0;
+	margin-left: 4px;
+	cursor: pointer;
+	vertical-align: middle;
+	color: #787c82;
+	transition: color .15s;
+}
+.gftn-edit-tags:hover,
+.gftn-edit-tags:focus {
+	color: #135e96;
+}
+
+/* ---------- Popover ---------- */
+.gftn-popover {
+	position: absolute;
+	z-index: 100;
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	border-radius: 6px;
+	box-shadow: 0 4px 12px rgba(0,0,0,.12);
+	padding: 12px;
+	min-width: 200px;
+}
+.gftn-popover-inner {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+.gftn-popover-inner strong {
+	margin-bottom: 4px;
+}
+.gftn-popover .gftn-empty {
+	font-style: italic;
+	color: #888;
+	font-size: 12px;
+}
+
+/* ---------- Form tag grid (form settings page) ---------- */
+.gftn-form-tag-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+}
+
+/* ---------- Plugin settings — catalog table ---------- */
+.gftn-tag-table {
+	margin-bottom: 20px;
+}
+.gftn-tag-table th,
+.gftn-tag-table td {
+	vertical-align: middle;
+}
+.gftn-tag-table tbody tr[data-tag-id] {
+	cursor: pointer;
+}
+.gftn-tag-table tbody tr[data-tag-id]:hover td {
+	background: #f0f0f1;
+}
+.gftn-empty-state td {
+	font-style: italic;
+	color: #888;
+}
+.gftn-tag-name {
+	font-weight: 600;
+}
+.gftn-tag-slug code {
+	padding: 2px 6px;
+	background: #f0f0f1;
+	border-radius: 3px;
+	font-size: 12px;
+}
+.gftn-tag-actions {
+	white-space: nowrap;
+}
+.gftn-tag-actions .button {
+	margin-right: 4px;
+}
+
+/* ---------- Add / edit form ---------- */
+.gftn-tag-form {
+	margin-top: 16px;
+	padding: 16px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+}
+.gftn-tag-form h4 {
+	margin: 0 0 12px;
+}
+.gftn-tag-form label {
+	display: block;
+	font-weight: 600;
+	margin: 8px 0 4px;
+}
+.gftn-tag-form-actions {
+	margin-top: 12px;
+	display: flex;
+	gap: 8px;
+}
+#gftn-delete-tag-btn {
+	color: #b32d2e;
+}
+
+/* Force visibility for buttons inside GF settings panel (it hides custom buttons) */
+#gftn-catalog-manager .button,
+#gftn-catalog-manager .button-primary,
+#gftn-save-tag {
+	display: inline-flex !important;
+	visibility: visible !important;
+	opacity: 1 !important;
+}
+
+/* ---------- Color swatch picker ---------- */
+.gftn-swatch-picker {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin: 6px 0;
+}
+.gftn-color-swatch {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	cursor: pointer;
+	transition: border-color .15s, transform .1s;
+	padding: 0;
+	box-sizing: border-box;
+}
+.gftn-color-swatch:hover {
+	transform: scale(1.15);
+}
+.gftn-color-swatch--selected {
+	border-color: #1d2327;
+	transform: scale(1.15);
+}
+
+/* ---------- Inline editing row in catalog table ---------- */
+.gftn-inline-edit {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+.gftn-inline-edit input[type="text"] {
+	max-width: 160px;
+}
+.gftn-inline-edit .gftn-color-swatch {
+	width: 22px;
+	height: 22px;
+}
+
+/* ---------- Pills wrapper in forms list column ---------- */
+.gftn-pills-wrapper {
+	display: inline;
+}
+
+/* ---------- Quick-create input in popover ---------- */
+.gftn-quick-create {
+	display: flex;
+	gap: 4px;
+	margin-top: 8px;
+	padding-top: 8px;
+	border-top: 1px solid #dcdcde;
+}
+.gftn-quick-create input[type="text"] {
+	flex: 1;
+	min-width: 0;
+	padding: 3px 6px;
+	font-size: 12px;
+	border: 1px solid #8c8f94;
+	border-radius: 3px;
+}
+.gftn-quick-create .button {
+	padding: 2px 8px;
+	font-size: 12px;
+	line-height: 1.6;
+	white-space: nowrap;
+}
+
+/* ---------- Saving indicator ---------- */
+.gftn-saving {
+	opacity: 0.6;
+	pointer-events: none;
+}
+
+/* ---------- Admin bar tag menu ---------- */
+#wp-admin-bar-gftn-tags > .ab-item .ab-icon::before {
+	content: "\f323" !important;
+	font-family: dashicons !important;
+	top: 2px;
+}
+#wp-admin-bar-gftn-tags .ab-submenu {
+	min-width: 180px !important;
+}
+#wp-admin-bar-gftn-tags .ab-submenu .ab-item {
+	display: flex !important;
+	align-items: center !important;
+	gap: 6px;
+}
+.gftn-bar-dot {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	flex-shrink: 0;
+}

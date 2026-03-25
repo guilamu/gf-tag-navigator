@@ -1,0 +1,168 @@
+# French translation for Gravity Forms Tag Navigator.
+# Copyright (C) 2026 Guilamu
+# This file is distributed under the AGPL-3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Tag Navigator 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/guilamu/gf-tag-navigator/issues\n"
+"POT-Creation-Date: 2026-03-25 00:00+0000\n"
+"PO-Revision-Date: 2026-03-25 15:45+0100\n"
+"Last-Translator: Guilamu\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: includes/class-form-list-ui.php
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/class-form-list-ui.php
+msgid "Edit tags"
+msgstr "Modifier les tags"
+
+#: includes/class-form-list-ui.php
+msgid "Filter by tag:"
+msgstr "Filtrer par tag :"
+
+#: includes/class-form-list-ui.php
+msgid "All"
+msgstr "Tous"
+
+#: includes/class-form-list-ui.php
+msgid "No tags created yet."
+msgstr "Aucun tag créé pour le moment."
+
+#: includes/class-form-list-ui.php
+msgid "New tag name…"
+msgstr "Nom du nouveau tag…"
+
+#: includes/class-form-list-ui.php
+msgid "Add"
+msgstr "Ajouter"
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Manage Tags"
+msgstr "Gérer les tags"
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Create, edit, and delete tags to organize your Gravity Forms."
+msgstr "Créez, modifiez et supprimez des tags pour organiser vos formulaires Gravity Forms."
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Color"
+msgstr "Couleur"
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Name"
+msgstr "Nom"
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Used by"
+msgstr "Utilisé par"
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "No tags yet. Create your first tag below."
+msgstr "Aucun tag pour le moment. Créez votre premier tag ci-dessous."
+
+#: includes/class-gf-tag-navigator-addon.php
+#, php-format
+msgid "%d form"
+msgid_plural "%d forms"
+msgstr[0] "%d formulaire"
+msgstr[1] "%d formulaires"
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Add New Tag"
+msgstr "Ajouter un tag"
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Add Tag"
+msgstr "Ajouter le tag"
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Delete Tag"
+msgstr "Supprimer le tag"
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Assign Tags"
+msgstr "Assigner les tags"
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Select the tags for this form."
+msgstr "Sélectionnez les tags pour ce formulaire."
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "No tags have been created yet."
+msgstr "Aucun tag n'a encore été créé."
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Create tags in plugin settings."
+msgstr "Créez des tags dans les réglages de l'extension."
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Permission denied."
+msgstr "Autorisation refusée."
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Invalid form ID."
+msgstr "Identifiant de formulaire invalide."
+
+#: includes/class-tag-catalog.php
+msgid "Tag name cannot be empty."
+msgstr "Le nom du tag ne peut pas être vide."
+
+#: includes/class-tag-catalog.php
+msgid "No color presets available."
+msgstr "Aucune couleur prédéfinie disponible."
+
+#: includes/class-tag-catalog.php
+msgid "Could not generate a valid slug from this name."
+msgstr "Impossible de générer un slug valide à partir de ce nom."
+
+#: includes/class-tag-catalog.php
+msgid "A tag with this name already exists. Choose a different name."
+msgstr "Un tag avec ce nom existe déjà. Choisissez un nom différent."
+
+#: includes/class-tag-catalog.php
+msgid "Invalid color value."
+msgstr "Valeur de couleur invalide."
+
+#: includes/class-tag-catalog.php
+msgid "Tag not found."
+msgstr "Tag introuvable."
+
+#: includes/class-github-updater.php
+msgid "Unable to rename the update folder. Please retry or update manually."
+msgstr "Impossible de renommer le dossier de mise à jour. Veuillez réessayer ou mettre à jour manuellement."
+
+#: gf-tag-navigator.php
+msgid "Filter forms by tag"
+msgstr "Filtrer les formulaires par tag"
+
+#: gf-tag-navigator.php
+msgid "More information about Gravity Forms Tag Navigator"
+msgstr "Plus d'informations sur Gravity Forms Tag Navigator"
+
+#: gf-tag-navigator.php
+msgid "Gravity Forms Tag Navigator"
+msgstr "Gravity Forms Tag Navigator"
+
+#: gf-tag-navigator.php
+msgid "View details"
+msgstr "Voir les détails"
+
+#: gf-tag-navigator.php
+msgid "🐛 Report a Bug"
+msgstr "🐛 Signaler un bug"
+
+#: gf-tag-navigator.php
+msgid "🐛 Report a Bug (install Bug Reporter)"
+msgstr "🐛 Signaler un bug (installer Bug Reporter)"

@@ -1,0 +1,165 @@
+# Copyright (C) 2026 Guilamu
+# This file is distributed under the AGPL-3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Tag Navigator 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/guilamu/gf-tag-navigator/issues\n"
+"POT-Creation-Date: 2026-03-25 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/class-form-list-ui.php
+msgid "Tags"
+msgstr ""
+
+#: includes/class-form-list-ui.php
+msgid "Edit tags"
+msgstr ""
+
+#: includes/class-form-list-ui.php
+msgid "Filter by tag:"
+msgstr ""
+
+#: includes/class-form-list-ui.php
+msgid "All"
+msgstr ""
+
+#: includes/class-form-list-ui.php
+msgid "No tags created yet."
+msgstr ""
+
+#: includes/class-form-list-ui.php
+msgid "New tag name…"
+msgstr ""
+
+#: includes/class-form-list-ui.php
+msgid "Add"
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Manage Tags"
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Create, edit, and delete tags to organize your Gravity Forms."
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Color"
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Name"
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Slug"
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Used by"
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "No tags yet. Create your first tag below."
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+#, php-format
+msgid "%d form"
+msgid_plural "%d forms"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Add Tag"
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Delete Tag"
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Assign Tags"
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Select the tags for this form."
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "No tags have been created yet."
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Create tags in plugin settings."
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Permission denied."
+msgstr ""
+
+#: includes/class-gf-tag-navigator-addon.php
+msgid "Invalid form ID."
+msgstr ""
+
+#: includes/class-tag-catalog.php
+msgid "Tag name cannot be empty."
+msgstr ""
+
+#: includes/class-tag-catalog.php
+msgid "No color presets available."
+msgstr ""
+
+#: includes/class-tag-catalog.php
+msgid "Could not generate a valid slug from this name."
+msgstr ""
+
+#: includes/class-tag-catalog.php
+msgid "A tag with this name already exists. Choose a different name."
+msgstr ""
+
+#: includes/class-tag-catalog.php
+msgid "Invalid color value."
+msgstr ""
+
+#: includes/class-tag-catalog.php
+msgid "Tag not found."
+msgstr ""
+
+#: includes/class-github-updater.php
+msgid "Unable to rename the update folder. Please retry or update manually."
+msgstr ""
+
+#: gf-tag-navigator.php
+msgid "Filter forms by tag"
+msgstr ""
+
+#: gf-tag-navigator.php
+msgid "More information about Gravity Forms Tag Navigator"
+msgstr ""
+
+#: gf-tag-navigator.php
+msgid "Gravity Forms Tag Navigator"
+msgstr ""
+
+#: gf-tag-navigator.php
+msgid "View details"
+msgstr ""
+
+#: gf-tag-navigator.php
+msgid "🐛 Report a Bug"
+msgstr ""
+
+#: gf-tag-navigator.php
+msgid "🐛 Report a Bug (install Bug Reporter)"
+msgstr ""
