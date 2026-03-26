@@ -93,6 +93,9 @@ The tag is removed from the catalog and automatically stripped from every form t
 
 ## Changelog
 
+### 1.0.1
+- Fix: Properly vertically align the inline "Edit tags" button next to form tags.
+
 ### 1.0.0
 - Initial release
 - Central tag catalog with 12 color presets

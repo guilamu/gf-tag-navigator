@@ -72,7 +72,9 @@ a.gftn-pill:hover {
 	padding: 0;
 	margin-left: 4px;
 	cursor: pointer;
-	vertical-align: middle;
+	display: inline-flex;
+	align-items: center;
+	vertical-align: middle !important; /* override GF's gform-st-icon: vertical-align:top */
 	color: #787c82;
 	transition: color .15s;
 }

@@ -3,10 +3,10 @@
 # This file is distributed under the AGPL-3.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gravity Forms Tag Navigator 1.0.0\n"
+"Project-Id-Version: Gravity Forms Tag Navigator 1.0.1\n"
 "Report-Msgid-Bugs-To: https://github.com/guilamu/gf-tag-navigator/issues\n"
 "POT-Creation-Date: 2026-03-25 00:00+0000\n"
-"PO-Revision-Date: 2026-03-25 15:45+0100\n"
+"PO-Revision-Date: 2026-03-26 14:00+0100\n"
 "Last-Translator: Guilamu\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
