@@ -3,7 +3,7 @@
  * Plugin Name:  Gravity Forms Tag Navigator
  * Plugin URI:   https://github.com/guilamu/gf-tag-navigator
  * Description:  Add colored tags to Gravity Forms and filter your form list by tag.
- * Version:      1.0.1
+ * Version:      1.0.2
  * Author:       Guilamu
  * Author URI:   https://github.com/guilamu
  * Text Domain:  gf-tag-navigator
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'GFTN_VERSION', '1.0.1' );
+define( 'GFTN_VERSION', '1.0.2' );
 define( 'GFTN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'GFTN_URL', plugin_dir_url( __FILE__ ) );
 define( 'GFTN_FILE', __FILE__ );
@@ -122,9 +122,9 @@ function gftn_plugin_row_meta( $links, $file ) {
 	$links[] = sprintf(
 		'<a href="%s" class="thickbox open-plugin-details-modal" aria-label="%s" data-title="%s">%s</a>',
 		esc_url(
-			admin_url(
+			self_admin_url(
 				'plugin-install.php?tab=plugin-information&plugin=gf-tag-navigator'
-				. '&TB_iframe=true&width=600&height=550'
+				. '&TB_iframe=true&width=772&height=926'
 			)
 		),
 		esc_attr__( 'More information about Gravity Forms Tag Navigator', 'gf-tag-navigator' ),

@@ -93,6 +93,10 @@ The tag is removed from the catalog and automatically stripped from every form t
 
 ## Changelog
 
+### 1.0.2
+- Rewrite GitHub updater: README.md parsing via Parsedown, "View details" modal with description/installation/FAQ/changelog tabs, CSS injection for wp_kses-safe tables, Gravity Forms sidebar line
+- Fix: Use self_admin_url() and correct modal dimensions (772×926) for the "View details" thickbox link
+
 ### 1.0.1
 - Fix: Properly vertically align the inline "Edit tags" button next to form tags.
 
